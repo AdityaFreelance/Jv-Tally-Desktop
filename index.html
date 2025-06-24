@@ -30,7 +30,7 @@
                             <img src="https://onlinejvc.com/assets/img/logo/jvc%20logo.png" alt="Logo"
                                 class="img-fluid">
                         </a>
-                        <div class="ratingbox">
+                        <div class="ratingbox desktop-v">
                             <span class="icon">
                                 <i class="fas fa-star text-xl"></i>
                                 <i class="fas fa-star text-xl"></i>
@@ -41,7 +41,7 @@
                             <span class="ratingbox-content">5-Star Certified Partner</span>
                         </div>
                     </div>
-                    <div class="header-contactbox">
+                    <div class="header-contactbox desktop-v">
                         <ul class="list-unstyled d-flex align-item-center mb-0">
                             <li>
                                 <a href="tel:+919876543210" class="h-contact">
@@ -63,6 +63,23 @@
                             Enquire Now
                         </button>
                     </div>
+                    <button type="button" class="menu-collapse-btn" id="menu-call-id">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <div class="ratingbox mob-view">
+                        <span class="icon">
+                            <i class="fas fa-star text-xl"></i>
+                            <i class="fas fa-star text-xl"></i>
+                            <i class="fas fa-star text-xl"></i>
+                            <i class="fas fa-star text-xl"></i>
+                            <i class="fas fa-star text-xl"></i>
+                        </span>
+                        <span class="ratingbox-content">5-Star Certified Partner</span>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -70,7 +87,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="menu-header-box">
+                        <div class="menu-header-box" id="menu-collapse">
+                            <button type="button" class="close-menu" id="close-menu-box">
+                                <i class="fas fa-times"></i>
+                            </button>
                             <ul class="list-unstyled d-flex align-item-center mb-0">
                                 <li class="nav-item">
                                     <a href="#hero" class="nav-link">
@@ -103,6 +123,28 @@
                                     </a>
                                 </li>
                             </ul>
+                            <div class="header-contactbox mobile-v">
+                                <ul class="list-unstyled d-flex align-item-center mb-0">
+                                    <li>
+                                        <a href="tel:+919876543210" class="h-contact">
+                                            <span class="h-contact-icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </span>
+                                            +91 98765 43210</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@jvcsolutions.com" class="h-contact">
+                                            <span class="h-contact-icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                            info@jvcsolutions.com
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="custom-btn">
+                                    Enquire Now
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,7 +165,7 @@
                                     Empowering Businesses Digitally
                                 </span>
                                 <h1>
-                                    Seamless Financial Management with <span>TallyPrime</span>
+                                    Seamless Financial Management with <br> <span>TallyPrime</span>
                                 </h1>
                                 <p>
                                     Partner with JVC Solutions for unparalleled expertise and support in implementing
